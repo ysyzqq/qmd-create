@@ -2,13 +2,10 @@
     "name": "qmd-create",
     "version": "0.0.1",
     "description": "Creates a template application using the command line.",
-    "homepage": "",
-    "bugs": {
-        "url": ""
-    },
+    "homepage": "https://github.com/ysyzqq/qmd-create.git",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/ysyzqq/qmd-create.git"
     },
     "license": "MIT",
     "files": [

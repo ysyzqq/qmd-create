@@ -1,0 +1,43 @@
+/* ShortMsgModal */
+.tip {
+  font-size: 12px;
+  color: #999999;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.formItemFlex {
+  :global {
+    .ant-form-item-children {
+      display: inline-flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .ant-input {
+      flex-basis: 260px;
+    }
+  }
+}
+
+.noError {
+  :global {
+    .ant-form-explain {
+      visibility: hidden;
+    }
+  }
+}
+
+.shortLastItem {
+  margin-bottom: 0px;
+}
+
+/* tableModal */
+.tableModal {
+  :global {
+    .ant-modal-body {
+      padding-bottom: 0px;
+    }
+  }
+}

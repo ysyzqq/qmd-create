@@ -1,0 +1,111 @@
+@import '~antd/lib/style/themes/default.less';
+
+// .commomTableTh {
+//   white-space: nowrap;
+//   & > :global.anticon {
+//     margin-left: 6px !important;
+//   }
+//   & + :global.ant-table-column-sorter {
+//     margin-left: 4px !important;
+//   }
+// }
+
+.tdNoWrap {
+  :global {
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td {
+      white-space: nowrap;
+    }
+  }
+}
+
+.standardTable {
+  :global {
+    .ant-table-pagination {
+      margin-top: 24px;
+    }
+  }
+}
+
+:global {
+  .ant-table-column-sorter-up,
+  .ant-table-column-sorter-down {
+    color: #bfbfbf;
+  }
+
+  .ant-table-thead > tr > th {
+    color: #999999;
+  }
+}
+
+.tableAlert {
+  margin-bottom: 16px;
+}
+
+:global {
+  .ant-table-scroll table .ant-table-fixed-columns-in-body {
+    visibility: visible;
+  }
+}
+
+.tableListForm {
+  margin-bottom: 16px;
+
+  :global {
+    .ant-form-item {
+      margin-bottom: 24px;
+      margin-right: 0;
+      display: flex;
+
+      > .ant-form-item-label {
+        width: auto;
+        line-height: 32px;
+        padding-right: 8px;
+      }
+
+      .ant-form-item-control {
+        line-height: 32px;
+      }
+    }
+
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+  }
+}
+
+.submitButtons {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.simplyButtons {
+  // .submitButtons;
+  justify-content: flex-start;
+}
+
+.commonSearchLabel {
+  color: rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 98px !important;
+  text-align: right;
+}
+
+:global {
+  .ant-table-pagination.ant-pagination {
+    margin-right: 32px;
+  }
+}
+
+.icon {
+  position: relative;
+  top: -1px;
+  margin-left: 5px;
+  width: 14px;
+  height: 13px;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.inputwrap {
+  :global {
+    .ant-input:not(:last-child) {
+      padding-right: 45px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .ant-input-suffix {
+      right: 6px;
+      color: #bbb;
+    }
+  }
+}
+
+.textarea {
+  position: relative;
+
+  textarea {
+    height: 140px !important;
+    padding-bottom: 20px;
+  }
+
+  span {
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    line-height: 12px;
+    color: #bbb;
+  }
+}

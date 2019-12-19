@@ -1,0 +1,63 @@
+.previewWrap {
+  position: fixed;
+  top: 10%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  overflow: auto;
+  outline: 0;
+}
+
+.preview {
+  width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  border: 1px solid;
+  position: relative;
+
+  :global {
+    .dplayer-setting-loop {
+      display: none;
+    }
+    .dplayer-menu.dplayer-menu-show {
+      display: none;
+    }
+  }
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.arrow {
+  display: inline-flex;
+  width: 60px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+  box-sizing: border-box;
+  i {
+    margin-left: 10px;
+  }
+}

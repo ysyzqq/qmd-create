@@ -31,15 +31,12 @@
         "prettier": "^1.17.0",
         "semver": "^6.1.0",
         "sort-package-json": "^1.31.0",
-        "sylvanas": "^0.4.3",
-        "typescript": "^3.7.3",
+        "sylvanas": "~0.2.0",
         "yargs-parser": "^13.1.1",
         "yeoman-generator": "^4.0.1"
     },
     "devDependencies": {
-        "np": "^5.0.1"
-    },
-    "authors": [
-        "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
-    ]
+        "np": "^5.0.1",
+        "umi-test": "^1.8.2"
+    }
 }

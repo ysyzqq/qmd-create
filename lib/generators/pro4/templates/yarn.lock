@@ -12427,9 +12427,9 @@ lockfile@^1.0.4:
     signal-exit "^3.0.2"
 
 lodash-es@^4.17.15, lodash-es@^4.17.5, lodash-es@^4.2.1:
-  version "4.17.15"
-  resolved "http://bnpm.byted.org/lodash-es/download/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
-  integrity sha1-Ib2Wg5NUQS8j16EDQOXqxu5FXXg=
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.18.1.tgz#b962eeb80d9d983a900bf342961fb7418ca10b1d"
+  integrity sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==
 
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
